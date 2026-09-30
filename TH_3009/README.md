@@ -18,7 +18,7 @@ Bài này xây dựng mạng nơ-ron nhiều lớp (MLP) đầu tiên để phâ
 Mô tả nguồn dữ liệu (ví dụ: MNIST, link tải, số mẫu, số lớp).
 
 ## Cách chạy
-[![Open In Colab](https://colab.research.google.com/drive/1euspQizcneOvbMPhqFX-2YdmQWDCkQvw#scrollTo=3e771972)]
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1euspQizcneOvbMPhqFX-2YdmQWDCkQvw)
 
 ## Kết quả chính
 - Độ chính xác trên tập test: xx%
