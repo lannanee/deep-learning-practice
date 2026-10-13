@@ -49,9 +49,7 @@ Một nơ-ron nhân tạo cơ bản nhận dữ liệu đầu vào, kết hợp 
 
 Công thức:
 
-\[
-Output=f\left(\sum_{i=1}^{n}x_iw_i+b\right)
-\]
+Output = f(Σ(xᵢ × wᵢ) + b)
 
 Trong đó:
 
