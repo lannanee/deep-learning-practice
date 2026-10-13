@@ -85,196 +85,92 @@ Các ứng dụng này hỗ trợ chuyên gia y tế chứ không mặc nhiên t
 
 ---
 
-## 2. Quiz ôn tập
-
-**Hướng dẫn:** Tự trả lời các câu hỏi trước khi mở phần đáp án. Câu hỏi có ghi *Chọn nhiều đáp án* yêu cầu chọn tất cả phương án đúng.
+## 2. Câu hỏi ôn tập và đáp án
 
 ### Câu 1. Mối quan hệ giữa AI, ML và DL
 
-Theo bài học, mối quan hệ đúng giữa ba khái niệm AI, Machine Learning (ML) và Deep Learning (DL) là gì?
+**Câu hỏi:** Mối quan hệ giữa ba khái niệm AI, Machine Learning (ML) và Deep Learning (DL) là gì?
 
-- [ ] A. AI là tập con của ML, ML là tập con của DL.
-- [ ] B. AI, ML và DL là ba lĩnh vực hoàn toàn độc lập.
-- [ ] C. DL là tập con của ML, ML là tập con của AI.
-- [ ] D. ML là tập con của DL, DL là tập con của AI.
-
-<details>
-<summary>💡 Xem đáp án và giải thích</summary>
-
-**Đáp án: C.**
-
-Deep Learning thuộc Machine Learning, còn Machine Learning thuộc lĩnh vực rộng hơn là Artificial Intelligence.
-
-</details>
+**Trả lời:** Deep Learning là tập con của Machine Learning, còn Machine Learning là tập con của Artificial Intelligence. Có thể biểu diễn mối quan hệ là **AI → ML → DL**.
 
 ### Câu 2. AI yếu và AI tổng quát
 
-AI yếu (Narrow AI) khác với AI tổng quát (General AI) ở điểm nào?
+**Câu hỏi:** AI yếu (Narrow AI) khác với AI tổng quát (General AI) ở điểm nào?
 
-- [ ] A. AI yếu thực hiện nhiệm vụ chuyên biệt; AI tổng quát hướng tới khả năng thực hiện nhiều nhiệm vụ trí tuệ khác nhau.
-- [ ] B. AI yếu luôn thông minh hơn con người trong mọi lĩnh vực.
-- [ ] C. AI tổng quát chỉ thực hiện một nhiệm vụ duy nhất.
-- [ ] D. AI yếu không sử dụng dữ liệu.
-
-<details>
-<summary>💡 Xem đáp án và giải thích</summary>
-
-**Đáp án: A.**
-
-AI yếu tập trung vào những nhiệm vụ cụ thể. AI tổng quát hướng tới khả năng học hỏi và giải quyết nhiều loại nhiệm vụ trí tuệ, nhưng vẫn chưa đạt được theo nghĩa tổng quát thực sự.
-
-</details>
+**Trả lời:** AI yếu được thiết kế để thực hiện một nhiệm vụ hoặc một nhóm nhiệm vụ cụ thể. AI tổng quát hướng tới khả năng học hỏi, suy luận và thực hiện nhiều nhiệm vụ trí tuệ khác nhau tương tự con người; hiện vẫn chưa đạt được theo nghĩa AI tổng quát thực sự.
 
 ### Câu 3. Nguyên lý cốt lõi của Machine Learning
 
-Nguyên lý cốt lõi của Machine Learning là gì?
+**Câu hỏi:** Nguyên lý cốt lõi của Machine Learning là gì?
 
-- [ ] A. Viết thủ công tất cả quy tắc cho mọi trường hợp.
-- [ ] B. Học các mẫu và mối quan hệ từ dữ liệu để dự đoán hoặc đưa ra quyết định.
-- [ ] C. Chỉ lưu trữ dữ liệu mà không xử lý.
-- [ ] D. Chỉ sử dụng các phép tính số học đơn giản.
-
-<details>
-<summary>💡 Xem đáp án và giải thích</summary>
-
-**Đáp án: B.**
-
-Machine Learning tìm ra quy luật từ dữ liệu. Tuy nhiên, mô hình vẫn cần được thiết kế, huấn luyện và đánh giá phù hợp; không có nghĩa là hoàn toàn không cần lập trình.
-
-</details>
+**Trả lời:** Machine Learning học các quy luật, mẫu và mối quan hệ từ dữ liệu để dự đoán hoặc đưa ra quyết định mà không cần lập trình tường minh mọi quy tắc.
 
 ### Câu 4. Thành phần Bias trong Perceptron
 
-Cho công thức:
+**Câu hỏi:** Trong công thức `Output = f(Σ(xᵢ × wᵢ) + b)`, thành phần `b` là gì?
 
-`Output = f(Σ(xᵢ × wᵢ) + b)`
-
-Thành phần `b` có ý nghĩa gì?
-
-- [ ] A. Dữ liệu đầu vào.
-- [ ] B. Trọng số của đầu vào.
-- [ ] C. Độ lệch (Bias), giúp điều chỉnh giá trị trước hàm kích hoạt.
-- [ ] D. Số lượng lớp trong mạng nơ-ron.
-
-<details>
-<summary>💡 Xem đáp án và giải thích</summary>
-
-**Đáp án: C.**
-
-Bias là một tham số được cộng vào tổng có trọng số, giúp mô hình linh hoạt hơn trong việc học mối quan hệ giữa đầu vào và đầu ra.
-
-</details>
+**Trả lời:** `b` là Bias (độ lệch), một tham số được cộng vào tổng có trọng số để điều chỉnh giá trị trước khi đưa qua hàm kích hoạt.
 
 ### Câu 5. Mạng nơ-ron truyền thẳng
 
-Vì sao mạng nơ-ron truyền thẳng được gọi là *Feedforward Neural Network*?
+**Câu hỏi:** Vì sao mạng nơ-ron truyền thẳng (Feedforward Neural Network) được gọi là truyền thẳng?
 
-- [ ] A. Vì dữ liệu chỉ truyền từ đầu ra về đầu vào.
-- [ ] B. Vì dữ liệu truyền qua các lớp theo chiều từ đầu vào đến đầu ra, không có vòng lặp phản hồi trong đường truyền.
-- [ ] C. Vì mạng không cần dữ liệu đầu vào.
-- [ ] D. Vì mạng chỉ có một nơ-ron duy nhất.
-
-<details>
-<summary>💡 Xem đáp án và giải thích</summary>
-
-**Đáp án: B.**
-
-Trong quá trình truyền thẳng, dữ liệu đi qua các lớp theo một chiều từ đầu vào đến đầu ra. Điều này khác với các mạng có kết nối hồi tiếp.
-
-</details>
+**Trả lời:** Vì dữ liệu truyền từ lớp đầu vào qua các lớp xử lý đến lớp đầu ra theo một chiều, không có vòng lặp phản hồi trong đường truyền tính toán của mạng.
 
 ### Câu 6. Số nơ-ron ở lớp đầu ra
 
-Với bài toán phân loại đa lớp có `n` lớp, một thiết kế phổ biến là sử dụng bao nhiêu nơ-ron ở lớp đầu ra?
+**Câu hỏi:** Với bài toán phân loại đa lớp có `n` lớp, số nơ-ron ở lớp đầu ra theo thiết kế phổ biến là bao nhiêu?
 
-- [ ] A. Luôn luôn là 1.
-- [ ] B. `n - 1` nơ-ron.
-- [ ] C. `2n` nơ-ron.
-- [ ] D. `n` nơ-ron.
-
-<details>
-<summary>💡 Xem đáp án và giải thích</summary>
-
-**Đáp án: D.**
-
-Một thiết kế phổ biến sử dụng `n` nơ-ron đầu ra, tương ứng với `n` lớp cần phân loại. Tuy nhiên, một số phương pháp mã hóa hoặc thiết kế mô hình khác có thể sử dụng cấu trúc đầu ra khác.
-
-</details>
+**Trả lời:** Có `n` nơ-ron đầu ra, mỗi nơ-ron tương ứng với một lớp cần phân loại.
 
 ### Câu 7. Ứng dụng Deep Learning trong y tế
 
-**Chọn nhiều đáp án.** Những ứng dụng nào sau đây phù hợp với Deep Learning trong y tế?
+**Câu hỏi:** Những ứng dụng nào của Deep Learning được đề cập trong lĩnh vực y tế?
 
-- [ ] A. Phân tích hình ảnh X-ray, CT/MRI, võng mạc và da liễu.
-- [ ] B. Hỗ trợ khám phá thuốc, thiết kế phân tử và tái định vị thuốc.
-- [ ] C. Hỗ trợ y học cá nhân hóa dựa trên thông tin di truyền, lối sống, môi trường và tiền sử bệnh.
-- [ ] D. Đảm bảo mọi bệnh nhân đều được chữa khỏi hoàn toàn.
-- [ ] E. Thay thế hoàn toàn bác sĩ trong mọi quyết định điều trị.
-
-<details>
-<summary>💡 Xem đáp án và giải thích</summary>
-
-**Đáp án: A, B, C.**
-
-Deep Learning có nhiều ứng dụng trong chẩn đoán hình ảnh, nghiên cứu thuốc và y học cá nhân hóa. Tuy nhiên, công nghệ này không đảm bảo chữa khỏi mọi bệnh và không mặc nhiên thay thế bác sĩ.
-
-</details>
+**Trả lời:**
+- Chẩn đoán hình ảnh y tế: X-ray, CT/MRI, hình ảnh võng mạc và da liễu.
+- Phát triển thuốc: Khám phá thuốc, thiết kế phân tử và tái định vị thuốc.
+- Y học cá nhân hóa: Hỗ trợ dự đoán hoặc khuyến nghị dựa trên thông tin di truyền, lối sống, môi trường và tiền sử bệnh.
 
 ### Câu 8. Thành phần của Perceptron
 
-**Chọn nhiều đáp án.** Những thành phần nào thuộc cấu tạo cơ bản của một nơ-ron nhân tạo?
+**Câu hỏi:** Những thành phần cơ bản nào cấu tạo nên một nơ-ron nhân tạo (Perceptron)?
 
-- [ ] A. Inputs – dữ liệu đầu vào.
-- [ ] B. Weights – trọng số.
-- [ ] C. Bias – độ lệch.
-- [ ] D. Activation Function – hàm kích hoạt.
-- [ ] E. Database Server – máy chủ cơ sở dữ liệu.
+**Trả lời:**
+- **Inputs:** Các giá trị dữ liệu đầu vào.
+- **Weights:** Trọng số thể hiện mức độ ảnh hưởng của từng đầu vào.
+- **Bias:** Độ lệch giúp điều chỉnh giá trị trước hàm kích hoạt.
+- **Activation Function:** Hàm kích hoạt, ví dụ Sigmoid, ReLU hoặc Tanh.
 
-<details>
-<summary>💡 Xem đáp án và giải thích</summary>
+Công thức tổng quát:
 
-**Đáp án: A, B, C, D.**
-
-Các thành phần cơ bản gồm đầu vào, trọng số, bias và hàm kích hoạt. Máy chủ cơ sở dữ liệu không phải thành phần cấu tạo của một Perceptron.
-
-</details>
+`Output = f(Σ(xᵢ × wᵢ) + b)`
 
 ### Câu 9. Ba loại chính của Machine Learning
 
-**Chọn nhiều đáp án.** Phát biểu nào sau đây là đúng?
+**Câu hỏi:** Trình bày ba loại chính của Machine Learning và ví dụ minh họa.
 
-- [ ] A. Supervised Learning học từ dữ liệu có nhãn, ví dụ phân loại email spam.
-- [ ] B. Unsupervised Learning tìm cấu trúc hoặc mẫu trong dữ liệu không nhãn, ví dụ phân nhóm khách hàng.
-- [ ] C. Reinforcement Learning học thông qua tương tác với môi trường và phản hồi, ví dụ AI chơi game.
-- [ ] D. Cả ba phương pháp đều bắt buộc phải sử dụng dữ liệu có nhãn.
-
-<details>
-<summary>💡 Xem đáp án và giải thích</summary>
-
-**Đáp án: A, B, C.**
-
-Ba phương pháp khác nhau chủ yếu ở cách học: từ dữ liệu có nhãn, từ dữ liệu không nhãn hoặc từ tương tác và phần thưởng. Phương án D không đúng.
-
-</details>
+**Trả lời:**
+- **Supervised Learning (Học có giám sát):** Học từ dữ liệu có nhãn. Ví dụ: phân loại email spam.
+- **Unsupervised Learning (Học không giám sát):** Tìm kiếm cấu trúc hoặc mẫu trong dữ liệu không nhãn. Ví dụ: phân nhóm khách hàng.
+- **Reinforcement Learning (Học tăng cường):** Học thông qua tương tác với môi trường và phản hồi dưới dạng phần thưởng hoặc hình phạt. Ví dụ: AI chơi game hoặc robot tự hành.
 
 ### Câu 10. Cấu trúc ba lớp của mạng nơ-ron (3 điểm)
 
-**Yêu cầu:** Trình bày cấu trúc ba lớp cơ bản của một mạng nơ-ron gồm Input Layer, Hidden Layer và Output Layer. Nêu vai trò của từng lớp.
+**Câu hỏi:** Trình bày cấu trúc ba lớp cơ bản của một mạng nơ-ron gồm Input Layer, Hidden Layer và Output Layer. Nêu vai trò của từng lớp.
 
-<details>
-<summary>💡 Xem đáp án tham khảo</summary>
+**Trả lời:**
 
 Một mạng nơ-ron cơ bản có thể gồm ba lớp chính:
 
-1. **Input Layer (Lớp đầu vào):** Tiếp nhận dữ liệu từ bên ngoài. Mỗi nơ-ron đầu vào thường tương ứng với một đặc trưng của dữ liệu, chẳng hạn tuổi, cân nặng hoặc chiều cao trong một bài toán dự đoán sức khỏe.
+1. **Input Layer (Lớp đầu vào):** Tiếp nhận dữ liệu từ bên ngoài. Mỗi nơ-ron đầu vào thường tương ứng với một đặc trưng của dữ liệu.
 
-2. **Hidden Layer (Lớp ẩn):** Thực hiện các phép tính dựa trên trọng số (weights), độ lệch (bias) và hàm kích hoạt (activation function). Lớp này giúp mạng học các đặc trưng và mối quan hệ phức tạp từ dữ liệu. Mạng có thể có một hoặc nhiều lớp ẩn.
+2. **Hidden Layer (Lớp ẩn):** Thực hiện các phép tính dựa trên trọng số (weights), độ lệch (bias) và hàm kích hoạt (activation function). Lớp này giúp mạng học các đặc trưng và mối quan hệ phức tạp trong dữ liệu. Mạng có thể có một hoặc nhiều lớp ẩn.
 
 3. **Output Layer (Lớp đầu ra):** Nhận kết quả xử lý từ các lớp trước và tạo ra kết quả cuối cùng, chẳng hạn nhãn phân loại, xác suất thuộc từng lớp hoặc giá trị dự đoán.
 
 **Kết luận:** Dữ liệu được tiếp nhận tại lớp đầu vào, xử lý qua các lớp ẩn và tạo kết quả tại lớp đầu ra.
 
-</details>
 
 ---
 
